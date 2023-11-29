@@ -1,0 +1,32 @@
+name: event
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  zoom_tap_animation: ^1.1.0
+  build_runner: ^2.4.0
+  webdev: ^3.2.0
+  cupertino_icons: ^1.0.6
+  flutter_vector_icons: 
+    git: 
+      url: https://github.com/victoreronmosele/flutter-vector-icons.git
+      ref: v3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/backgroud.png
+
